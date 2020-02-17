@@ -44,7 +44,7 @@
         <table>
           <thead>
             <tr>
-              <th>Bear Type</th>
+              <th>Bear Type</th><!-- REVIEW: je kan nog aangeven of de celhoofd voor een rij of kolom is -->
               <th>Coat</th>
               <th>Adult size</th>
               <th>Habitat</th>
@@ -63,6 +63,7 @@
             </tr>
             <tr>
               <td>Urban <span [role="toelichting"] class="hidden">This bear has a north face coat, can grow up to 22 meters, lives in the condos and coffee shops, lives for 20 to 32 years and mostly drinks starbucks and eats sushi.</span></td>
+              <!-- REVIEW: waarom staat role tussen brackets? -->
               <td>North Face</td>
               <td>18 to 22</td>
               <td>Condos and coffee shops</td>
@@ -93,11 +94,11 @@
             <h2>Add comment</h2>
             <form class="comment-form">
               <div [role="input name"] class="flex-pair">
-                <label for="name">Your name:</label> 
-                <input type="text" name="name" id="name" placeholder="Enter your name"/>   
+                <label for="name">Your name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name"/>
               </div>
               <div [role="input comment"] class="flex-pair">
-                <label for="comment">Your comment:</label> 
+                <label for="comment">Your comment:</label>
                 <input type="text" name="comment" id="comment" placeholder="Enter your comment">
               </div>
               <div>
